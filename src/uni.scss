@@ -1,0 +1,10 @@
+/* 全局样式变量 */
+@import '@/common/styles/theme.scss';
+
+/* uni-app 全局变量覆盖 */
+$uni-color-primary: $primary;
+$uni-color-success: $success;
+$uni-color-warning: $warning;
+$uni-color-error: $danger;
+$uni-bg-color: $bg-page;
+$uni-text-color: $text-primary;

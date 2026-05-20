@@ -1,0 +1,83 @@
+/* === 植享家 品牌视觉主题 === */
+
+/* 核心绿色系 */
+$primary: #4CAF50;
+$primary-light: #66BB6A;
+$primary-lighter: #A5D6A7;
+$primary-dark: #388E3C;
+$primary-darker: #2E7D32;
+
+/* 渐变绿色系 */
+$green-gradient: linear-gradient(135deg, #66BB6A 0%, #4CAF50 50%, #388E3C 100%);
+$green-gradient-light: linear-gradient(135deg, #A5D6A7 0%, #81C784 100%);
+
+/* 大地色系辅助色 */
+$earth-white: #FAFAF5;
+$earth-cream: #F5F0E8;
+$earth-brown-light: #C9B99A;
+$earth-brown: #8D6E63;
+$earth-brown-dark: #5D4037;
+
+/* 文字色 */
+$text-primary: #2E3B2E;
+$text-regular: #5A6B5A;
+$text-secondary: #8B9A8B;
+$text-hint: #B0BEB0;
+
+/* 功能色 */
+$success: #4CAF50;
+$warning: #FF9800;
+$danger: #E57373;
+$info: #64B5F6;
+
+/* 背景色 */
+$bg-page: #F5F7F5;
+$bg-card: #FFFFFF;
+$bg-green-light: #E8F5E9;
+
+/* 圆角 */
+$radius-sm: 6px;
+$radius-md: 10px;
+$radius-lg: 14px;
+$radius-round: 50%;
+
+/* 间距 */
+$spacing-xs: 6px;
+$spacing-sm: 10px;
+$spacing-md: 16px;
+$spacing-lg: 20px;
+$spacing-xl: 28px;
+
+/* 阴影 */
+$shadow-card: 0 2px 12px rgba(76, 175, 80, 0.08);
+$shadow-hover: 0 4px 20px rgba(76, 175, 80, 0.15);
+
+/* 字体大小 - 舒适阅读 */
+$font-xs: 13px;
+$font-sm: 14px;
+$font-md: 16px;
+$font-lg: 18px;
+$font-xl: 20px;
+$font-xxl: 24px;
+$font-xxxl: 32px;
+
+/* 混入 - 卡片样式 */
+@mixin card {
+  background: $bg-card;
+  border-radius: $radius-md;
+  box-shadow: $shadow-card;
+  padding: $spacing-md;
+}
+
+/* 混入 - 大按钮 */
+@mixin btn-large {
+  padding: $spacing-sm $spacing-lg;
+  border-radius: $radius-md;
+  font-size: $font-lg;
+  font-weight: 500;
+  text-align: center;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "植享家",
+  "appid": "__UNI__ZHI_XIANG_JIA",
+  "description": "让美好园艺走进千家万户",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": true,
+      "es6": true,
+      "postcss": true,
+      "minified": true
+    },
+    "usingComponents": true,
+    "optimization": {
+      "subPackages": true
+    },
+    "lazyCodeLoading": "requiredComponents"
+  },
+  "h5": {
+    "title": "植享家 - 家庭园艺智能服务平台",
+    "domain": "",
+    "router": {
+      "mode": "hash"
+    }
+  }
+}
